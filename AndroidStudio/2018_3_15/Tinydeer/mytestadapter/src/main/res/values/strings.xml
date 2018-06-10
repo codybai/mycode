@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">myTestAdapter</string>
-    <string-array name="spinner_value">
-        <item>谈天说地</item>
-        <item>实习资讯</item>
-        <item>教务通知</item>
-    </string-array>
-</resources>

@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">testSpinner</string>
-    <string-array name="name">
-        <item>baicol</item>
-        <item>bia</item>
-    </string-array>
-</resources>
