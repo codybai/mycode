@@ -1,0 +1,15 @@
+INPUT(
+./debug\main.o
+./debug\widget.o
+./debug\workthread.o
+./debug\mytcpserver.o
+./debug\mytcpsocket.o
+./debug\mywidget.o
+./debug\myserver_plugin_import.o
+./debug\qrc_res.o
+./debug\moc_widget.o
+./debug\moc_workthread.o
+./debug\moc_mytcpserver.o
+./debug\moc_mytcpsocket.o
+./debug\moc_mywidget.o
+);

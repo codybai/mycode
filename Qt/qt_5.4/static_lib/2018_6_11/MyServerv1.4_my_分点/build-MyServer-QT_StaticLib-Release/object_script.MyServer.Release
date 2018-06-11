@@ -1,0 +1,15 @@
+INPUT(
+./release\main.o
+./release\widget.o
+./release\workthread.o
+./release\mytcpserver.o
+./release\mytcpsocket.o
+./release\mywidget.o
+./release\myserver_plugin_import.o
+./release\qrc_res.o
+./release\moc_widget.o
+./release\moc_workthread.o
+./release\moc_mytcpserver.o
+./release\moc_mytcpsocket.o
+./release\moc_mywidget.o
+);

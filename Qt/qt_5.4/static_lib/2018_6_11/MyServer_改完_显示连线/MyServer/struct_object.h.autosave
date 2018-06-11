@@ -1,0 +1,46 @@
+#ifndef STRUCT_OBJECT
+#define STRUCT_OBJECT
+
+typedef struct _RADAR_OBJECT
+{
+    short x;//有符号数
+    unsigned short y;//无符号数
+    char speed; //有符号数
+    unsigned char echo; //无符号数
+    double intx;   //所在x
+    double inty;    //所在y
+}RADAR_OBJECT;
+
+typedef struct _RADAR_PACKEET
+{
+    QByteArray header;
+    QByteArray seq_frame;
+    QByteArray keep;
+    QByteArray num_aim;
+    QByteArray a1;
+    QByteArray a2;
+    QByteArray a3;
+    QByteArray a4;
+    QByteArray a5;
+    QByteArray a6;
+    QByteArray a7;
+    QByteArray a8;
+    QByteArray a9;
+    QByteArray a10;
+    QByteArray a11;
+    QByteArray a12;
+    QByteArray a13;
+    QByteArray a14;
+    QByteArray a15;
+    QByteArray check;
+    
+    QByteArray rawinfo;
+    QByteArray header;
+    unsigned short seq;
+    unsigned int reserved;
+    unsigned char count;
+    Object object[15];
+}RADAR_PACKEET;
+
+#endif // STRUCT_OBJECT
+
