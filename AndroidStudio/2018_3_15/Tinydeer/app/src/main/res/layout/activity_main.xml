@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--//标题栏-->
+    <include layout="@layout/titlebar" />
+    <!--framelayout-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/fl_content"
+        android:layout_weight="1" />
+
+    <!--radio group-->
+    <RadioGroup
+        android:background="@android:color/background_light"
+        android:id="@+id/rg_main"
+        android:padding="5dp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_weight="1"
+            android:text="首页"
+            android:id="@+id/rb_recomm"
+            android:drawablePadding="3dp"
+            android:textSize="10sp"
+            android:gravity="center"
+            android:button="@null"
+            android:drawableTop="@drawable/rb_recomm_drawable_selector"
+            android:textColor="@drawable/bottom_textcolor_drawable_selector"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:layout_weight="1"
+            android:text="社区"
+            android:id="@+id/rb_classify"
+            android:drawablePadding="3dp"
+            android:textSize="10sp"
+            android:gravity="center"
+            android:button="@null"
+            android:drawableTop="@drawable/rb_classify_drawable_selector"
+            android:textColor="@drawable/bottom_textcolor_drawable_selector"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="发帖"
+            android:background="@android:color/transparent"
+            android:id="@+id/rb_send"
+            android:drawablePadding="3dp"
+            android:textSize="10sp"
+            android:gravity="center"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_tab_send"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1" />
+
+        <RadioButton
+            android:layout_weight="1"
+            android:text="消息"
+            android:id="@+id/rb_home"
+            android:drawablePadding="3dp"
+            android:textSize="10sp"
+            android:gravity="center"
+            android:button="@null"
+            android:drawableTop="@drawable/rb_common_frame_drawable_selector"
+            android:textColor="@drawable/bottom_textcolor_drawable_selector"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:layout_weight="1"
+            android:text="我的"
+            android:id="@+id/rb_profile"
+            android:drawablePadding="3dp"
+            android:textSize="10sp"
+            android:gravity="center"
+            android:button="@null"
+            android:drawableTop="@drawable/rb_profile_drawable_selector"
+            android:textColor="@drawable/bottom_textcolor_drawable_selector"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </RadioGroup>
+
+
+</LinearLayout>

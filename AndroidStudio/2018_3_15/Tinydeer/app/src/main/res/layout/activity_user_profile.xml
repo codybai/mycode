@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10sp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@android:color/white"
+            android:orientation="horizontal"
+            android:paddingLeft="15sp"
+            android:paddingTop="10sp">
+
+            <TextView
+                android:id="@+id/user_ico"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/usr_ico" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/user_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/text_view_bg_selector"
+                    android:clickable="true"
+                    android:paddingLeft="15sp"
+                    android:paddingTop="15sp"
+                    android:text="苦逼的程序员"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:text="请点击‘我的个人资料’完善一下信息。并重新登陆一下。"
+                    android:id="@+id/user_words"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="15sp"
+                    android:paddingRight="15sp"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="50sp"
+                    android:layout_height="50sp"
+                    android:layout_marginBottom="5sp"
+                    android:background="@drawable/mypage" />
+
+                <TextView
+                    android:id="@+id/user_mypage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="10sp"
+                    android:background="@drawable/text_view_bg_selector"
+                    android:clickable="true"
+                    android:contextClickable="true"
+                    android:focusable="true"
+                    android:gravity="center_vertical"
+                    android:text="我的个人资料"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.001dp"
+                android:background="#ecebeb" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="50sp"
+                    android:layout_height="50sp"
+                    android:layout_marginBottom="5sp"
+                    android:background="@drawable/mylike" />
+
+                <TextView
+                    android:id="@+id/user_myfocus"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="10sp"
+                    android:background="@drawable/text_view_bg_selector"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:text="我的关注"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.001dp"
+                android:background="#ecebeb" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="50sp"
+                    android:layout_height="50sp"
+                    android:layout_marginBottom="5sp"
+                    android:background="@drawable/mypose" />
+
+                <TextView
+                    android:id="@+id/user_mypost"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="10sp"
+                    android:background="@drawable/text_view_bg_selector"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:text="我发表的帖子"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="50sp"
+                    android:layout_height="50sp"
+                    android:layout_marginBottom="5sp"
+                    android:background="@drawable/store" />
+
+                <TextView
+                    android:id="@+id/user_mystar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="10sp"
+                    android:background="@drawable/text_view_bg_selector"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:text="我的收藏"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.05dp"
+                android:background="#ecebeb" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="50sp"
+                    android:layout_height="50sp"
+                    android:layout_marginBottom="5sp"
+                    android:background="@drawable/mylevel" />
+
+                <TextView
+                    android:id="@+id/user_level"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="10sp"
+                    android:background="@drawable/text_view_bg_selector"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:text=""
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.05dp"
+                android:background="#ecebeb" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="50sp"
+                    android:layout_height="50sp"
+                    android:layout_marginBottom="5sp"
+                    android:background="@drawable/mygrade" />
+
+                <TextView
+                    android:id="@+id/user_score"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="10sp"
+                    android:background="@drawable/text_view_bg_selector"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:text=""
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50sp" />
+
+        <Button
+            android:id="@+id/user_quit_btn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10sp"
+            android:layout_marginTop="50sp"
+            android:background="@drawable/quit_btn_select"
+            android:text="退出登陆" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20sp" />
+
+    </LinearLayout>
+</ScrollView>
